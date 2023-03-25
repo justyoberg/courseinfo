@@ -1,6 +1,8 @@
 const Total = (props) => {
   return (
-    <p>Number of exercises {props.exercises.reduce((a, b) => a + b)} </p>
+    <p>Number of exercises {props.part1.exercises + 
+                            props.part2.exercises + 
+                            props.part3.exercises} </p>
   )
 }
 
